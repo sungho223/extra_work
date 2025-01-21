@@ -1,4 +1,4 @@
-package extra_work;
+package academy_extra_work;
 
 public class gradeChange {
     private int korScore = 90;

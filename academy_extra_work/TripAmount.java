@@ -1,4 +1,4 @@
-
+package academy_extra_work;
 
 public class TripAmount {
 

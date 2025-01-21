@@ -1,4 +1,4 @@
-package extra_work;
+package academy_extra_work;
 public class demo2 {
     public static void main(String[] args) {
         int num = 7237;
