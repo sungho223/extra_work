@@ -1,4 +1,4 @@
-package extra_work;
+
 
 public class TripAmount {
 
