@@ -1,4 +1,4 @@
-package First_Homework;
+package First_Homework.Animal;
 
 /**
  * 26번 문제: Animal 클래스를 만들어보세요
@@ -28,21 +28,6 @@ public class Animal {
 
     public void cry() {
         System.out.println("나의 울음소리는 " + this.animalSound + "이니까 잘 기억해둬");
-    }
-
-    public static void main(String[] args) {
-        /**
-         * 문제 27번 Animal 클래스로 여러가지 인스턴스를 만들어보세요
-         */
-        Animal cow = new Animal("말랑", "소","음메음메");
-        cow.selfIntroduce();
-        cow.cry();
-
-        System.out.println();
-
-        Animal chicken = new Animal("굽네굽네", "치킨", "꼬꼬꼬");
-        chicken.selfIntroduce();
-        chicken.cry();
     }
 
 }
