@@ -1,4 +1,4 @@
-package First_Homework.Q31;
+package First_Homework.Q30;
 
 public class Stock {
     private String stockName;

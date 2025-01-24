@@ -1,4 +1,4 @@
-package First_Homework.Q31;
+package First_Homework.Q30;
 
 public class Buyer {
     private int wallet;  // 구매자의 자산(잔액)
