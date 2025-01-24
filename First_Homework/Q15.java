@@ -1,5 +1,8 @@
 package First_Homework;
 
+// 실수형 변수 다섯 개를 선언하고 임의의 값을 할당한다.
+// 다섯 값의 평균보다 큰 수들을 출력한다.
+
 public class Q15 {
     static double num1 = (Math.random() * 100);
     static double num2 = (Math.random() * 100);
@@ -9,8 +12,7 @@ public class Q15 {
 
     public static double avg() {
         double sum = num1 + num2 + num3 + num4 + num5;
-        double result = sum / 5;
-        return Math.round(result * 100) / 100.0;
+        return sum / 5;
     }
 
     public static void main(String[] args) {
@@ -37,3 +39,14 @@ public class Q15 {
     }
 
 }
+
+// 1번째 값: 59.15714782389462
+// 2번째 값: 18.08658401304276
+// 3번째 값: 2.7931111139094744
+// 4번째 값: 80.42008069855495
+// 5번째 값: 54.602539595217834
+// 평균은 43.011892648923926
+
+// 1번째 값: 59.15714782389462
+// 4번째 값: 80.42008069855495
+// 5번째 값: 54.602539595217834

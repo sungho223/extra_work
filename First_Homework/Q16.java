@@ -1,5 +1,8 @@
 package First_Homework;
 
+// 정수형 변수 다섯 개를 선언하고 임의의 값을 할당한다.
+// 다섯 값 중 2, 5, 8의 배수인 것들만 출력한다.
+
 public class Q16 {
     public static void main(String[] args) {
         int num1 = (int) (Math.random() * 100);
@@ -28,3 +31,10 @@ public class Q16 {
         }
     }
 }
+
+// num1: 80
+// num2: 83
+// num3: 95
+// num4: 79
+// num5: 15
+// 조건을 만족하는 값: 80

@@ -18,3 +18,4 @@ public class Q12 {
         System.out.println("결과는 " + output);
     }
 }
+// 결과는 1.67

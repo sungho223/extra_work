@@ -14,3 +14,4 @@ public class Q10 {
         System.out.println("결과는 " + result);
     }
 }
+// 결과는 20

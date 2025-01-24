@@ -12,13 +12,37 @@ package First_Homework.Animal;
  * - 울기
  */
 public class Animal {
-    String animalName;
-    String animalType;
-    String animalSound;
+    private String animalName;
+    private String animalType;
+    private String animalSound;
 
     public Animal(String animalName, String animalType, String animalSound) {
         this.animalName = animalName;
         this.animalType = animalType;
+        this.animalSound = animalSound;
+    }
+
+    public String getAnimalName(){
+        return animalName;
+    }
+
+    public String getAnimalType(){
+        return animalType;
+    }
+
+    public String getAnimalSound(){
+        return animalType;
+    }
+
+    public void setAnimalName(String animalName){
+        this.animalName = animalName;
+    }
+
+    public void setAnimalType(String animalType){
+        this.animalType = animalType;
+    }
+
+    public void setAnimalSound(String animalSound){
         this.animalSound = animalSound;
     }
 

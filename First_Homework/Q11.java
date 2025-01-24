@@ -9,8 +9,10 @@ public class Q11 {
     public static void main(String[] args) {
         int num1 = 100;
         int num2 = 80;
-        double result = (double) num1 % num2;
+        double result = (double) num1 / num2;
 
         System.out.println("결과는 " + result);
+
     }
 }
+// 결과는 1.25

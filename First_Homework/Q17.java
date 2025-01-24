@@ -1,5 +1,8 @@
 package First_Homework;
 
+// 정수형 변수 다섯 개를 선언하고 임의의 값을 할당한다.
+// 다섯 값 중 2 또는 5 또는 6의 배수인 것들만 출력한다.
+
 public class Q17 {
     public static void main(String[] args) {
         int num1 = (int) (Math.random() * 100);
@@ -29,3 +32,12 @@ public class Q17 {
         }
     }
 }
+
+// num1: 48
+// num2: 10
+// num3: 57
+// num4: 99
+// num5: 53
+
+// 조건을 만족하는 값: 48
+// 조건을 만족하는 값: 10

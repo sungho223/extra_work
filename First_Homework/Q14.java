@@ -1,5 +1,8 @@
 package First_Homework;
 
+// 실수형 변수 세 개를 선언하고 임의의 값을 할당한다.
+// 세 값 중 가장 작은 수만 출력한다.
+
 public class Q14 {
     public static void main(String[] args) {
         float num1 = (float) (Math.random() * 100);
@@ -18,3 +21,8 @@ public class Q14 {
         System.out.println("최소값은 " + min);
     }
 }
+
+// num1 : 19.936106
+// num2 : 32.5669
+// num3 : 31.87729
+// 최소값은 19.936106
